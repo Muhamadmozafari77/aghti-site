@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fff1f5">
+  <title>یه سؤال مهم 💌</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page">
+    <span class="heart heart-one" aria-hidden="true">♥</span>
+    <span class="heart heart-two" aria-hidden="true">♥</span>
+    <span class="heart heart-three" aria-hidden="true">♥</span>
+    <span class="heart heart-four" aria-hidden="true">♥</span>
+
+    <section class="card" aria-labelledby="question">
+      <img class="hero-photo" src="photo.jpg.jpeg" alt="عکس با نوشتهٔ با من قهری">
+      <div class="stage is-active" id="stageQuestion">
+        <h1 id="question">با من قهری؟</h1>
+        <div class="actions" aria-label="انتخاب پاسخ">
+          <button class="button button-yes" id="yesButton" type="button">آره 🙈</button>
+          <button class="button button-no" id="noButton" type="button">نه 😊</button>
+        </div>
+        <p class="response" id="response" aria-live="polite"></p>
+      </div>
+
+      <div class="stage" id="stageWhy" aria-live="polite">
+        <div class="sentence-line">
+          <h1 class="stage-title">با من قهررررر نباش</h1>
+          <button class="button button-yes next-button" id="whyButton" type="button">چوووون 💗</button>
+        </div>
+      </div>
+
+      <div class="stage" id="stageFinish" aria-live="polite">
+        <div class="finish-heart" aria-hidden="true">💖</div>
+        <p class="description final-message">مهروبیییینت قشنگه<br>همزبونیتتت قشنگههههه<br>وقتی باهام قهر می‌کنی، پشیموونیت قشنگه 💃🕺</p>
+      </div>
+
+      <div class="stage" id="stageNo" aria-live="polite">
+        <div class="finish-heart" aria-hidden="true">😘</div>
+        <p class="description final-message">آفرین دختر خوب<br>یه بوس جایزتهه 😘</p>
+      </div>
+    </section>
+    <p class="footer">با عشق، برای تو <span aria-hidden="true">♡</span></p>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
